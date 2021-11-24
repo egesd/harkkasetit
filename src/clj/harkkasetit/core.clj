@@ -1,13 +1,14 @@
 (ns harkkasetit.core
   (:require
-    [harkkasetit.handler :as handler]
-    [harkkasetit.nrepl :as nrepl]
-    [luminus.http-server :as http]
-    [luminus-migrations.core :as migrations]
-    [harkkasetit.config :refer [env]]
-    [clojure.tools.cli :refer [parse-opts]]
-    [clojure.tools.logging :as log]
-    [mount.core :as mount])
+   [harkkasetit.handler :as handler]
+   [harkkasetit.nrepl :as nrepl]
+   [luminus.http-server :as http]
+   [luminus-migrations.core :as migrations]
+   [harkkasetit.config :refer [env]]
+   [clojure.tools.cli :refer [parse-opts]]
+   [clojure.tools.logging :as log]
+   [mount.core :as mount]
+   [harkkasetit.db.core])
   (:gen-class))
 
 ;; log uncaught exceptions in threads
@@ -74,4 +75,4 @@
       (System/exit 0))
     :else
     (start-app args)))
-  
+
