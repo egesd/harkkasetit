@@ -12,6 +12,7 @@ profiles.clj
 /.env
 .nrepl-port
 docker-compose.yml
+output.calva-repl
 
 /node_modules
 /log
