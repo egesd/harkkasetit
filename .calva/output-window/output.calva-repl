@@ -1,0 +1,150 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Starting Jack-in Terminal: lein update-in :dependencies conj '[nrepl,"0.8.3"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.26.0"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +dev repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+
+; Evaluating 'afterCLJReplJackInCode'
+(in-ns 'user) (start) (println "Access the server at http://localhost:3000")
+Access the server at http://localhost:3000
+nil
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+*db*
+; Syntax error compiling at (.calva/output-window/output.calva-repl:1:8040).
+; Unable to resolve symbol: *db* in this context
+clj꞉user꞉> 
+(*db*)
+; Syntax error compiling at (.calva/output-window/output.calva-repl:30:1).
+; Unable to resolve symbol: *db* in this context
+clj꞉user꞉> 
+"<< stopping.. #'harkkasetit.db.core/*db* (namespace was recompiled)"
+">> starting.. #'harkkasetit.db.core/*db* (namespace was recompiled)"
+nil
+clj꞉harkkasetit.db.core꞉> 
+(get-posts)
+[{:id 1, :name "Pasi"}]
+clj꞉harkkasetit.db.core꞉> 
+(get-posts)
+[{:id 1, :name "Pasi"} {:id 2, :name "Reiska"}]
+clj꞉harkkasetit.db.core꞉> 
+; Evaluating file: services.clj
+#'harkkasetit.routes.services/service-routes
+clj꞉harkkasetit.routes.services꞉> 
+; Evaluating file: services.clj
+#'harkkasetit.routes.services/service-routes
+clj꞉harkkasetit.routes.services꞉> 
+; Evaluating file: services.clj
+; Syntax error compiling at (src/clj/harkkasetit/routes/services.clj:50:11).
+; No such namespace: response
+; Evaluation of file services.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj꞉harkkasetit.routes.services꞉> 
+clj꞉harkkasetit.routes.services꞉> 
+; Evaluating file: core.clj
+"<< stopping.. #'harkkasetit.db.core/*db* (namespace was recompiled)"
+">> starting.. #'harkkasetit.db.core/*db* (namespace was recompiled)"
+nil
+clj꞉harkkasetit.db.core꞉> 
+; Evaluating file: core.clj
+"<< stopping.. #'harkkasetit.db.core/*db* (namespace was recompiled)"
+">> starting.. #'harkkasetit.db.core/*db* (namespace was recompiled)"
+nil
+clj꞉harkkasetit.db.core꞉> 
+; Evaluating file: core.clj
+"<< stopping.. #'harkkasetit.db.core/*db* (namespace was recompiled)"
+">> starting.. #'harkkasetit.db.core/*db* (namespace was recompiled)"
+nil
+clj꞉harkkasetit.db.core꞉> 
+; Evaluating file: services.clj
+; Syntax error compiling at (src/clj/harkkasetit/routes/services.clj:51:11).
+; No such namespace: response
+; Evaluation of file services.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj꞉harkkasetit.db.core꞉> 
+clj꞉harkkasetit.routes.services꞉> 
+; Evaluating file: services.clj
+; Syntax error compiling at (src/clj/harkkasetit/routes/services.clj:51:11).
+; No such namespace: response
+; Evaluation of file services.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj꞉harkkasetit.routes.services꞉> 
+clj꞉harkkasetit.routes.services꞉> 
+; Evaluating file: services.clj
+; Syntax error compiling at (src/clj/harkkasetit/routes/services.clj:51:11).
+; No such namespace: response
+; Evaluation of file services.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj꞉harkkasetit.routes.services꞉> 
+clj꞉harkkasetit.routes.services꞉> 
+; Evaluating file: services.clj
+; Syntax error compiling at (src/clj/harkkasetit/routes/services.clj:51:11).
+; No such namespace: response
+; Evaluation of file services.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj꞉harkkasetit.routes.services꞉> 
+clj꞉harkkasetit.routes.services꞉> 
+; Evaluating file: services.clj
+#'harkkasetit.routes.services/service-routes
+clj꞉harkkasetit.routes.services꞉> 
+; Evaluating file: services.clj
+#'harkkasetit.routes.services/service-routes
+clj꞉harkkasetit.routes.services꞉> 
+; Evaluating file: services.clj
+#'harkkasetit.routes.services/service-routes
+clj꞉harkkasetit.routes.services꞉> 
+; Evaluating file: services.clj
+#'harkkasetit.routes.services/service-routes
+clj꞉harkkasetit.routes.services꞉> 
+; Evaluating file: services.clj
+#'harkkasetit.routes.services/service-routes
+clj꞉harkkasetit.routes.services꞉> 
+; Evaluating file: services.clj
+#'harkkasetit.routes.services/service-routes
+clj꞉harkkasetit.routes.services꞉> 
+; Evaluating file: services.clj
+#'harkkasetit.routes.services/service-routes
+clj꞉harkkasetit.routes.services꞉> 
+; Evaluating file: services.clj
+; Syntax error macroexpanding clojure.core/fn at (src/clj/harkkasetit/routes/services.clj:51:21).
+; -- Syntax error -------------------
+
+  nil
+
+should have additional elements. The next element ":fn-tail" should satisfy
+
+  (clojure.spec.alpha/alt
+   :arity-1
+   :clojure.core.specs.alpha/params+body
+   :arity-n
+   (clojure.spec.alpha/+
+    (clojure.spec.alpha/spec :clojure.core.specs.alpha/params+body)))
+
+-------------------------
+Detected 1 error
+; Evaluation of file services.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj꞉harkkasetit.routes.services꞉> 
+clj꞉harkkasetit.routes.services꞉> 
+; Evaluating file: services.clj
+#'harkkasetit.routes.services/service-routes
+clj꞉harkkasetit.routes.services꞉> 
+; Evaluating file: services.clj
+#'harkkasetit.routes.services/service-routes
+clj꞉harkkasetit.routes.services꞉> 
+; Evaluating file: services.clj
+#'harkkasetit.routes.services/service-routes
+clj꞉harkkasetit.routes.services꞉> 
