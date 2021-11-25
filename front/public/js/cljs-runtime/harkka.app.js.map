@@ -1,0 +1,1 @@
+{"version":3,"sources":["harkka/app.cljs"],"mappings":";AAEA,kBAAA,lBAAMA;AAAN,AACEC;AADF","names":["harkka.app/init","cljs.core/println"],"sourcesContent":["(ns harkka.app)\n\n(defn init []\n  println \"Hello World\")"]}

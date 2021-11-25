@@ -8,4 +8,6 @@
  []
 
  :builds
- {}}
+ {:harkka
+  {:target :browser
+   :modules {:main {:init-fn harkka.app/init}}}}}
