@@ -13,6 +13,7 @@ profiles.clj
 .nrepl-port
 docker-compose.yml
 output.calva-repl
+.clj-kondo
 
 /node_modules
 /log
