@@ -15,7 +15,7 @@ docker-compose.yml
 output.calva-repl
 .clj-kondo
 .lsp
-
+DS_Store
 
 /node_modules
 /log
