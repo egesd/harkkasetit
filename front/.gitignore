@@ -14,8 +14,11 @@ profiles.clj
 docker-compose.yml
 output.calva-repl
 .clj-kondo
+.lsp
+.DS_Store
 
-/node_modules
+
+node_modules
 /log
 
 
