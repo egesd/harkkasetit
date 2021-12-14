@@ -1,0 +1,1 @@
+{"version":3,"sources":["harkka/config.cljs"],"mappings":";AAEA,wBAAA,xBAAKA","names":["harkka.config/api-url"],"sourcesContent":["(ns harkka.config)\n\n(def api-url \"test\")"]}

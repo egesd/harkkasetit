@@ -16,6 +16,7 @@ output.calva-repl
 .clj-kondo
 .lsp
 .DS_Store
+.shadow-cljs
 
 
 node_modules
